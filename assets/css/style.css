@@ -15,7 +15,7 @@ ul {
   background: #ffffff;
   width: 100%;
   height: 120px;
-  margin-bottom: 85px;
+  margin-bottom: 80px;
 }
 
 ul li {
@@ -32,7 +32,8 @@ ul li a {
   color: gray;
 }
 ul li a:hover {
-  color: teal;
+  border-bottom: 3px solid teal;
+  padding-bottom: 8px;
 }
 #logo a {
   margin-left: 15%;
@@ -46,7 +47,7 @@ ul li a:hover {
   color: #ffffff;
   text-decoration: none;
   justify-content: center;
-  
+  font-weight: bold;
 }
 #rightmargin {
   margin-right: 20%;
@@ -58,15 +59,17 @@ ul li a:hover {
   margin-left: 15%;
   margin-right: 20%;
   padding: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 215px;
   border-color: #dddddd;
 }
 
 #title {
-  height: 100px;
-  line-height: 100px;
+  width: 100%;
+  height: 60px;
+  line-height: 40px;
   color: teal;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 2px solid #d3cece;
 }
 
 #profil {
@@ -74,11 +77,13 @@ ul li a:hover {
   height: 180px;
   float: left;
   padding-right: 30px;
+  padding-top: 30px;
 }
 
 #Bio {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
+  padding-top: 30px;
 }
 
 #footer {
