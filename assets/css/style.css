@@ -5,34 +5,88 @@
 
 body {
   background: #efefef;
-
-}
-nav {
   width: 100%;
-  height: 100px;
-  background: #fff;
 }
 
 ul {
-  
+}
 
+#nav {
+  background: #ffffff;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 85px;
 }
 
 ul li {
   list-style: none;
   display: inline-block;
+  line-height: 120px;
   float: right;
-  
-}
-
-ul li a {
-  text-decoration: none;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #1e1e1e;
+  margin-right: 1%;
+}
+ul li a {
+  text-decoration: none;
+  color: gray;
+}
+ul li a:hover {
+  color: teal;
+}
+#logo a {
+  margin-left: 15%;
+  float: left;
+  height: 120px;
+  line-height: 120px;
+  background: teal;
+  width: 20%;
+  text-align: center;
+  font-size: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  justify-content: center;
   
 }
+#rightmargin {
+  margin-right: 20%;
+}
 
-ul li a:hover{
-  
+#container {
+  background: #ffffff;
+  width: 60%;
+  margin-left: 15%;
+  margin-right: 20%;
+  padding: 40px;
+  margin-bottom: 200px;
+  border-color: #dddddd;
+}
+
+#title {
+  height: 100px;
+  line-height: 100px;
+  color: teal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#profil {
+  width: 180px;
+  height: 180px;
+  float: left;
+  padding-right: 30px;
+}
+
+#Bio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#footer {
+  color: #ffffff;
+  background: gray;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
