@@ -59,7 +59,7 @@ ul li a:hover {
   margin-left: 15%;
   margin-right: 20%;
   padding: 40px;
-  margin-bottom: 215px;
+  margin-bottom: 230px;
   border-color: #dddddd;
 }
 
@@ -89,9 +89,10 @@ ul li a:hover {
 #footer {
   color: #ffffff;
   background: gray;
-  height: 100px;
+  height: 80px;
   line-height: 100px;
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
+  border-top: 8px solid teal;
 }
