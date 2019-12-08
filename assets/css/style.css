@@ -14,6 +14,7 @@ nav {
   width: 100%;
   height: 120px;
   margin-bottom: 80px;
+  display: inline-block;
 }
 
 .topnav-left a {
@@ -65,9 +66,7 @@ nav {
   margin-bottom: 125px;
   border-color: #dddddd;
 }
-.button {
-  color: blue;
-}
+
 .portfolio {
   overflow: auto;
 }
@@ -75,16 +74,27 @@ nav {
 .pf {
   position: relative;
   float: left;
-  overflow: auto;
+  text-align: center;
 }
-
-#pf5 {
-  background-image: url("../images/bodybook.jpg");
+.pftitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: teal;
   width: 320px;
-  height: 200px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.alligator-turtle {
-  object-fit: contain;
+.pftitle a {
+  color: white;
+  text-decoration: none;
+}
+.pftitle a:hover {
+  background-color: white;
+  color: teal;
 }
 
 #title {
@@ -161,6 +171,14 @@ textarea {
 input,
 textarea {
   outline-color: #dddddd;
+}
+button {
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: teal;
+  color: white;
+  width: 70px;
+  height: 25px;
 }
 @media only screen and (max-width: 940px) {
   .topnav-left a {
